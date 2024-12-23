@@ -56,7 +56,7 @@ header {
 
 /* Dashboard Styles */
 .dashboard {
-    max-width: 32rem;
+    max-width:90%;
     margin: 0 auto;
     background-color: rgba(38, 16, 64, 0.5);
     backdrop-filter: blur(8px);
@@ -117,4 +117,89 @@ h1 {
     .dashboard {
         padding: 1.5rem;
     }
+}
+
+
+
+
+
+
+
+
+/* search address Design css */
+
+/* Add these styles to your existing CSS */
+.address-list-section {
+    margin-top: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.search-container {
+    margin-bottom: 1rem;
+}
+
+.search-input {
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.05);
+    color: white;
+    font-size: 1rem;
+    outline:none;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.address-list {
+    max-height: 330px;
+    overflow-y: auto;
+}
+
+.address-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.address-text {
+    font-family: monospace;
+    font-size: 0.9rem;
+}
+
+.status-badge {
+    padding: 0.3rem 0.8rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.status-claimed {
+    background: #4CAF50;
+    color: white;
+}
+
+.status-pending {
+    background: #FFC107;
+    color: black;
+}
+
+.status-claimAgain {
+    background: #408cff;
+    color: black;
+}
+.google-form-div{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.google-form-div a{
+   color:rgb(0 255 222);
 }

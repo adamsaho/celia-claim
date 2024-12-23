@@ -56,6 +56,8 @@ async function getProof() {
     if (single_user_data.data.user.trim().toLowerCase() === walletAddress.toLowerCase()) {
       userData = single_user_data;
       tokenAmountBold.innerText = parseFloat(String(userData.data.amount)) / 10 ** 18;
+    }else{
+      claimButton.innerHTML = 'Claim';
     }
   });
 }
@@ -89,6 +91,13 @@ async function connectButtonFunctio() {
 claimButton.addEventListener('click', claimTokens);
 
 async function claimTokens() {
+
+    if(userData == null || userData == undefined){
+      alert('Retry in 5 minutes');
+      return;
+    }
+
+
     claimButton.innerHTML = 'Loading...';
     await switchToBnbChain();
 

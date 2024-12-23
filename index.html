@@ -8,7 +8,6 @@
 </head>
 <body>
     <div class="container">
-
         <header>
             <div class="header-buttons">
                 <button class="btn presale-btn">Presale Dashboard</button>
@@ -30,9 +29,27 @@
 
             <button class="btn claim-btn">Claim</button>
 
+            <!-- New Address List Section -->
+            <div class="address-list-section">
+                <div class="google-form-div">
+                    <h1>Google Form Address</h1>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfXk1voAPreUqEmGx8aXFSPi17TywLKuJ2KaZJHff_uFIYBPw/viewform?usp=dialog">Submit Google form - for claim celia</a>
+                </div>
+                <div class="search-container">
+                    <input
+                        type="text"
+                        class="search-input"
+                        placeholder="Search address..."
+                        id="addressSearch"
+                    >
+                </div>
+                <div class="address-list" id="addressList">
+                    <!-- Address items will be populated by JavaScript -->
+                </div>
+            </div>
         </main>
     </div>
-    <script src="js/ethers.js   "></script>
+    <script src="js/ethers.js"></script>
     <script src="js/user.js"></script>
     <script src="js/script.js"></script>
     <script src="js/main.js"></script>
