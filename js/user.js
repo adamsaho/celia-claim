@@ -3,7 +3,7 @@ let users = [
     status: 200,
     message: 'Airdrop proof retrieved successfully',
     data: {
-      amount: '425470000000000000000',
+      amount: '00',
       proof: [
         '0x172bbb28c6dadc143beb6df114b32f92035ec4e4d50db0d34e3642c47bac1e30',
         '0x1230fdcaf9baa79ddb77be8147c6288d6e9122b7cdd04bfe2ca18ff4d0d35472',
