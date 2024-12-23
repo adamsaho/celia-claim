@@ -1043,7 +1043,7 @@ let users = [
         '0xb70d3c62e01d6d66503b132dc2fb1eadb018fd9cd132bfd9de970e84a9756f7a',
       ],
       user: '0x1777332d0c5827e3faa22fb25d7da919d4c21925',
-      stauts: 'pending',
+      status: 'pending',
     },
   },
 
@@ -1072,7 +1072,7 @@ let users = [
         '0xb70d3c62e01d6d66503b132dc2fb1eadb018fd9cd132bfd9de970e84a9756f7a',
       ],
       user: '0x21202bd9b9ae6ed3049306e30b27ac34d8007153',
-      stauts: 'pending',
+      status: 'pending',
     },
   },
   {
@@ -1100,7 +1100,7 @@ let users = [
         '0xb70d3c62e01d6d66503b132dc2fb1eadb018fd9cd132bfd9de970e84a9756f7a',
       ],
       user: '0x63dbd92169de381aa51791d297ee5f698b847510',
-      stauts: 'pending',
+      status: 'pending',
     },
   },
   {
@@ -1129,9 +1129,10 @@ let users = [
         '0x40ef00a18b34a22275b0718f308ea142a806f09c0ef81a96617d14a8b6c3f2d7',
       ],
       user: '0xd9ff067d0350fe2bb219c8cab3d457315beb5244',
-      stauts: 'pending',
+      status: 'pending',
     },
   },
+
 ];
 
 
