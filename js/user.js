@@ -719,7 +719,7 @@ let users = [
         '0xb70d3c62e01d6d66503b132dc2fb1eadb018fd9cd132bfd9de970e84a9756f7a',
       ],
       user: '0xa2B5Cc0f8A55fc3f9116d811e440aDA8a288D099',
-      status: 'pending',
+      status: 'claimed',
     },
   },
 
@@ -987,7 +987,7 @@ let users = [
       status:"pending",
     },
   },
-  
+
 ];
 
 
