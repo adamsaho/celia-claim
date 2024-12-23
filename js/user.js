@@ -984,10 +984,39 @@ let users = [
         '0x40ef00a18b34a22275b0718f308ea142a806f09c0ef81a96617d14a8b6c3f2d7',
       ],
       user: '0xa196e600ce6dec21d62a36e66c5375379b3c80a3',
-      status:"pending",
+      status: 'pending',
     },
   },
 
+  {
+    status: 200,
+    message: 'Airdrop proof retrieved successfully',
+    data: {
+      amount: '133715000000000000000',
+      proof: [
+        '0x1a4813aa3e75b24a42f8b4955405a4911d7aa46a81ed33ce72f59ebb226eae7f',
+        '0x2117a36ba15cbab71a14010edf15ec86609a080d1a8af60d8d3c396b9fdf32c1',
+        '0x7006a869c6c25a65e0e9d1d9bbe9ac8b82c9471f2fcde6608ce61d6547e9ee80',
+        '0xc54d55446df5ac747d90bc28c83256feaafe29f0f21d6fff9e880c59204a44cc',
+        '0xfb436b3b142433886989ebdc24cd4e0c0cd0991b85a5fdf586f3d80d1341dc5c',
+        '0x64da02b7d5eaa019a533347618548b9793102e2e64e2c280eadb8eca9d5a5bd3',
+        '0x28dcc4be1faf4218b4c9d7443475a662eefa422fb361f1d47ac16f8e61297250',
+        '0x72382048744daae3358cad2e07208133029eaa7343922edbd8ad2495d0ccc867',
+        '0x65568964ff30055da15306df58da4fa184b13ea8643b940cf3733b31bada1220',
+        '0x568505ba79a8a6340dd871b05a4cae22b1271a537358f4faaed4fa617fede36f',
+        '0x38cb1e06b6b791184950246a327f24ce28b52fc1d903120dc7ea91cfca5fd4b2',
+        '0xab31297a30f4da70cbeb5d9dbf24e817f3345ef54737a608a844fae80b3c8cae',
+        '0x444293a51f84f9fa883196220c16f93bbfbd158b27353216acb66b3c901fe2e0',
+        '0x2a499857e4523248301a307029d3f4e11f1d7cd472b4b8477661880074e89ee9',
+        '0xcf493261e0962e383a5b650955a32c9739030fd1e43a7494c97ca93108d17091',
+        '0x3820fd1bbfeca6cb539d417079bebd63fac19eb8bb74f2f0c1dc833eb92b724f',
+        '0x2b7804522fe656640077aa4e5ca6997bf58da6343d8b5a9cc607d9b10da4babe',
+        '0xb70d3c62e01d6d66503b132dc2fb1eadb018fd9cd132bfd9de970e84a9756f7a',
+      ],
+      user: '0x818C3FF855BCe1211a9616E4dc4fC0BB390b2A8C',
+      status:"pending"
+    },
+  },
 ];
 
 
