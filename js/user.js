@@ -1043,7 +1043,7 @@ let users = [
         '0xb70d3c62e01d6d66503b132dc2fb1eadb018fd9cd132bfd9de970e84a9756f7a',
       ],
       user: '0x1777332d0c5827e3faa22fb25d7da919d4c21925',
-      status: 'pending',
+      status: 'claimed',
     },
   },
 
