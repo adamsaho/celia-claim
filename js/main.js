@@ -111,6 +111,7 @@ async function claimTokens() {
 
         if(Number(allowanceAmount) == 0 || allowanceAmount == "00"){
           alert('you do not have balance');
+          claimButton.innerHTML = 'Claim';
           return;
         }
 
