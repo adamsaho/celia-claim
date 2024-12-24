@@ -387,7 +387,7 @@ let users = [
     status: 200,
     message: 'Airdrop proof retrieved successfully',
     data: {
-      amount: '372650000000000000000',
+      amount: '00',
       proof: [
         '0x7d587f56109fc88b3051b83694c40edbd9b48be1c0bebf85f02648b75b5603e7',
         '0x18569e72719b81655707b322cd2fadf81450ba9d99cdc315139be1287e85309e',
@@ -409,7 +409,7 @@ let users = [
         '0x40ef00a18b34a22275b0718f308ea142a806f09c0ef81a96617d14a8b6c3f2d7',
       ],
       user: '0xfee734Aa4cEC84D25aA9e9639EE30105bdeF1f6F',
-      status: 'pending',
+      status: 'claimed',
     },
   },
 
@@ -824,6 +824,7 @@ let users = [
       status: 'pending',
     },
   },
+
 ];
 
 
