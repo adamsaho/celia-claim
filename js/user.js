@@ -241,35 +241,6 @@ let users = [
     status: 200,
     message: 'Airdrop proof retrieved successfully',
     data: {
-      amount: '824270000000000000000',
-      proof: [
-        '0x554b7476f477a7129c601352e381083947e890e04a33788fc6537c4d87375794',
-        '0xa1336ff796cd6caccd4e99e10b87956732bccf2f1345b47cdbb78ef5cbdb5965',
-        '0x9a4e22e8bd166b3410d4a45e078e5b7c3eb07fd7b8b9b9f8ec8b41d6bf004be6',
-        '0xd82a41615606ab7fa9af072a944e3a1765ca7fff00904028a66036653132d3c7',
-        '0x981219f0048d306dc9f7be50b577742602b2df67adf80f9b6e9fe02eefc2ca94',
-        '0xe70f896dcb0f47b8bba1992cd0d5f6c467ba745cf7fc19376c5788da1d27ae3c',
-        '0xc4f2d476bc8f4fa3641840e09ccbf685911afe3650f3b872b8b37bfb556e26e8',
-        '0x54aff27526dab5fb3418b589325e61add0cd962b71e3eed252f66c911a002745',
-        '0xebde3d3c37172cbfe16c0514d9a6b24d1507cb1c518d0d005683647f13bf24c1',
-        '0xbf60247d2d0239b29f19927525044b5d2ffb8911903e7937db2d9ae48f0600a2',
-        '0x411a0171a97a1f30fff6656f5c937169068512020cf8170ae183feddfd7f84ac',
-        '0xc2607936272f3737ee956424153ffa4a2a30b83db6e46839cf6469e7353a02ac',
-        '0xc2367b78d6b0097ead93ba18efc29f3ef63a7df64cfa1a059ce88c78dbf6621b',
-        '0x1fd14a9b07d84d393660c75732fb6b19c01798f71c7a4048f902a68286922d32',
-        '0x10518ad4a07d6abe899600ad0d506fb69ecb2678b6f2da32c5cd8783519bd3b5',
-        '0x5ed518714fb0c337bf1082aabf49bdea8375bf9fdb39f1d26593c89378224514',
-        '0x3d78579349d5791ab19b03d94061440412606917d53ada62d49f2fb05d8a8aa6',
-        '0x40ef00a18b34a22275b0718f308ea142a806f09c0ef81a96617d14a8b6c3f2d7',
-      ],
-      user: '0xb7bC837592Bf7D157fdd4a03a8E72459048e0743',
-      status: 'pending',
-    },
-  },
-  {
-    status: 200,
-    message: 'Airdrop proof retrieved successfully',
-    data: {
       amount: '00',
       proof: [
         '0xd53f33c3116e92e3686b5b3af9b7ccb59b3e5958730479833c4497ce76724cbd',
@@ -711,7 +682,7 @@ let users = [
     status: 200,
     message: 'Airdrop proof retrieved successfully',
     data: {
-      amount: '777290000000000000000',
+      amount: '00',
       proof: [
         '0x7a496599f3214de64f7b5c5d7627a273e05ecef1bcac65a1ede30c75387f413b',
         '0x003892f84c7897a9b5dbdb9bf668f1b95be6b490c30d0965de6c575f113c6e5d',
@@ -733,7 +704,7 @@ let users = [
         '0x40ef00a18b34a22275b0718f308ea142a806f09c0ef81a96617d14a8b6c3f2d7',
       ],
       user: '0xd4a0CBD430c7213797E43F66D183Df26Fc477c98',
-      status: 'pending',
+      status: 'claimed',
     },
   },
 
