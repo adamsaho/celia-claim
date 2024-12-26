@@ -652,7 +652,7 @@ let users = [
     status: 200,
     message: 'Airdrop proof retrieved successfully',
     data: {
-      amount: '423055000000000000000',
+      amount: '00',
       proof: [
         '0xa9f5064c297a0f46c4c45f5462844088b08648f9f0eaa86a3ad59d6cad5bec5f',
         '0x9054817bc2000dd3df8662a79d00840e2c439e50057fd4d010e759ffd27f6322',
@@ -674,7 +674,7 @@ let users = [
         '0x40ef00a18b34a22275b0718f308ea142a806f09c0ef81a96617d14a8b6c3f2d7',
       ],
       user: '0xDBbBf055B920CD9B65F7AE185e3FFD581e61258C',
-      status: 'pending',
+      status: 'claimed',
     },
   },
 
@@ -800,7 +800,7 @@ let users = [
     status: 200,
     message: 'Airdrop proof retrieved successfully',
     data: {
-      amount: '531630000000000000000',
+      amount: '00',
       proof: [
         '0x3fa61c127c4492e772537f995ca80a3eb111ff095bc386853e11693442355201',
         '0xf910418a9fb4ad670bf96a18088a1176ecf8c5a30fb199143a32ea9c7f69fb06',
@@ -822,7 +822,7 @@ let users = [
         '0x40ef00a18b34a22275b0718f308ea142a806f09c0ef81a96617d14a8b6c3f2d7',
       ],
       user: '0x22ce91b3111Ea23AC69F2c7C3efA3856f0B3182C',
-      status: 'pending',
+      status: 'claimed',
     },
   },
 
